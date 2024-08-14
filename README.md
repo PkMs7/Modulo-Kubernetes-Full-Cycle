@@ -35,3 +35,7 @@
 - *Apagar um clulster*
 
 ```kind delete clusters <nome do cluster>```
+
+- *Criar um cluster a partir do arquivo .yaml*
+
+```kind create cluster --config=k8s/kind.yaml --name=fullcycle```
