@@ -39,3 +39,15 @@
 - *Criar um cluster a partir do arquivo .yaml*
 
 ```kind create cluster --config=k8s/kind.yaml --name=fullcycle```
+
+- *Adicionar um pod em um node*
+
+```kubectl apply -f k8s/pod.yaml```
+
+- *Deletar um pod em um node*
+
+```kubectl delete pod <nome do pod>```
+
+- *Redirecionar portas do kubernetes e da máquina*
+
+```kubectl port-forward pod/<nome do pod> <porta:porta>```
