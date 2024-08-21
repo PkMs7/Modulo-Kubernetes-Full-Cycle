@@ -44,6 +44,14 @@
 
 ```kubectl apply -f k8s/pod.yaml```
 
+- *Verificar pods criados*
+
+```kubectl get pods```
+
+- *Descrever um pod*
+
+```kubectl describe pod <nome do pod>```
+
 - *Deletar um pod em um node*
 
 ```kubectl delete pod <nome do pod>```
@@ -51,3 +59,8 @@
 - *Redirecionar portas do kubernetes e da máquina*
 
 ```kubectl port-forward pod/<nome do pod> <porta:porta>```
+
+- *Criar um ReplicaSet*
+
+```kubectl apply -f k8s/replicaset.yaml```
+
