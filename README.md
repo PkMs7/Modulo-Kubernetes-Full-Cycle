@@ -75,3 +75,15 @@
 - *Consultar Deployments*
 
 ```kubectl get deployments```
+
+- *Consultar histórico de Deployments*
+
+```kubectl rollout history deployment <nome do deployment>```
+
+- *Voltar para a última versão do Deployment*
+
+```kubectl rollout undo deployment <nome do deployment>```
+
+- *Voltar para uma versão específica do Deployment*
+
+```kubectl rollout undo deployment <nome do deployment> --to-revision=<número da revisão>```
