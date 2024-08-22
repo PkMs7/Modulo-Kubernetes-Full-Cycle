@@ -64,3 +64,14 @@
 
 ```kubectl apply -f k8s/replicaset.yaml```
 
+- *Consultar Replicasets*
+
+```kubectl get replicasets```
+
+- *Criar um Deployments*
+
+```kubectl apply -f k8s/deployment.yaml```
+
+- *Consultar Deployments*
+
+```kubectl get deployments```
